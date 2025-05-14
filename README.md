@@ -15,3 +15,14 @@ merupakan default password juga. Sementara localhost:5672 adalah server address 
 ### Simulate Slow Subscriber
 ![image](https://github.com/user-attachments/assets/6c60684f-c4eb-49e2-9944-f860bd50c9ad)
 Queued message yang terlihat di RabbitMQ saya mencapai ~11 messages. Hal ini terjadi karena saya menjalankan 3x cargo run secara bersamaan sementara terdapat thread sleep `thread::sleep(ten_millis);` yang menyebabkan thread akan tidur selama beberapa milisecond sebelum mengirimkan pesan yang lain. Kira kira akan ada sebanyak (N-1) * K messages yang queued dimana N adalah jumlah run dan K adalah jumlah message.
+
+### Simulate Many Subscribers
+![image](https://github.com/user-attachments/assets/4282f9e6-f3d1-4b5c-a920-dff115c1a28d)
+
+---
+
+![image](https://github.com/user-attachments/assets/5392cdf4-00ef-4e6e-8692-ef41edfd8ee5)
+
+Penurunan chart yang queued messages adalah karena publisher mengirim data lebih cepat daripada yang subscriber bisa proses. Karena adanya delay lewat thread sleep, lonjakan message terjadi sehingga queued message bisa melonjak naik. Namun seiring berjalannya waktu, message dapat diproses dan chart kembali turun. 
+
+Beberapa hal yang dapat diimprove adalah dengan mengganti `println!` dengan Logging, ditambahnya error handling contohnya pada `publish_event` ketika fungsi tersebut gagal mengirimkan pesan ke subscriber. Dapat digunakan message parallelism dengan menggunakan `thread::spawn` atau async handler. 
