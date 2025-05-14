@@ -10,3 +10,8 @@ is the second guest, and what is localhost:5672 is for?
 'guest' pertama adalah username untuk login ke RabbitMQ server dimana 'guest' adalah username default yang dibuat oleh RabbitMQ. 'guest' kedua adalah password untuk login yang
 merupakan default password juga. Sementara localhost:5672 adalah server address dan server port dimana localhost adalah tempat RabbitMQ run di browser serta
 5672 adalah default port dari RabbitMQ
+
+---
+### Simulate Slow Subscriber
+![image](https://github.com/user-attachments/assets/6c60684f-c4eb-49e2-9944-f860bd50c9ad)
+Queued message yang terlihat di RabbitMQ saya mencapai ~11 messages. Hal ini terjadi karena saya menjalankan 3x cargo run secara bersamaan sementara terdapat thread sleep `thread::sleep(ten_millis);` yang menyebabkan thread akan tidur selama beberapa milisecond sebelum mengirimkan pesan yang lain. Kira kira akan ada sebanyak (N-1) * K messages yang queued dimana N adalah jumlah run dan K adalah jumlah message.
