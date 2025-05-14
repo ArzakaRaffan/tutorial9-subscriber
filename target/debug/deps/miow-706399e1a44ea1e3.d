@@ -1,0 +1,12 @@
+C:\Users\arzak\Desktop\tutorial9-subscriber\subscriber\target\debug\deps\libmiow-706399e1a44ea1e3.rmeta: C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\lib.rs C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\handle.rs C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\overlapped.rs C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\iocp.rs C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\net.rs C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\pipe.rs
+
+C:\Users\arzak\Desktop\tutorial9-subscriber\subscriber\target\debug\deps\libmiow-706399e1a44ea1e3.rlib: C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\lib.rs C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\handle.rs C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\overlapped.rs C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\iocp.rs C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\net.rs C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\pipe.rs
+
+C:\Users\arzak\Desktop\tutorial9-subscriber\subscriber\target\debug\deps\miow-706399e1a44ea1e3.d: C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\lib.rs C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\handle.rs C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\overlapped.rs C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\iocp.rs C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\net.rs C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\pipe.rs
+
+C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\lib.rs:
+C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\handle.rs:
+C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\overlapped.rs:
+C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\iocp.rs:
+C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\net.rs:
+C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\miow-0.2.2\src\pipe.rs:
